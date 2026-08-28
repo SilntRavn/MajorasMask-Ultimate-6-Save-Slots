@@ -13,6 +13,7 @@ slot5&6.bin
 %localappdata%\Zelda64Recompiled\saves\Ultimate 6 Save Slots
 ```
 
+
 Only 2 save slots and running out of space? No worries! Now you’ve got 6!
 
 Modded saves are fundamentally no different from vanilla saves. Mods identify saves by filename. Simply rename any vanilla save to the following format:
