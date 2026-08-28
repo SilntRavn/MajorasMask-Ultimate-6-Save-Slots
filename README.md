@@ -2,21 +2,13 @@
 
 2个存档槽不够用？没关系！现在你有6个了！
 
-模组存档与原版存档完全独立，使用以下文件：
-
+模组存档与原版存档的文件没有本质不同，模组通过文件名来识别存档，只需把任意原版存档重命名为以下格式:
 ```text
-saves/Ultimate 6 Save Slots/slot1&2.bin
-saves/Ultimate 6 Save Slots/slot3&4.bin
-saves/Ultimate 6 Save Slots/slot5&6.bin
+slot1&2.bin
+slot3&4.bin
+slot5&6.bin
 ```
-
-中文版本和英文版本是两个独立 Mod，请只启用其中一个；两个版本共用上述存档目录。
-
-仓库地址：https://github.com/SilntRavn/MajorasMask-Ultimate-6-Save-Slots
-
-要沿用原版前两个存档，请关闭游戏后将 `saves/mm.bin` 复制为 `saves/Ultimate 6 Save Slots/slot1&2.bin`。
-
-## 发布包
-
-- `mm_ultimate_6_save_slots_cn.nrm`：中文存档标签，可配合中文文本 Mod。
-- `mm_ultimate_6_save_slots.nrm`：英文存档标签。
+然后放入以下路径即可:
+```text
+%localappdata%\Zelda64Recompiled\saves\Ultimate 6 Save Slots
+```
