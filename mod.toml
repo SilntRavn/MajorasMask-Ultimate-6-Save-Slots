@@ -1,6 +1,6 @@
 [manifest]
 id = "mm_ultimate_6_save_slots_cn"
-version = "1.0.2"
+version = "1.0.0"
 display_name = "超绝六存档槽"
 description = """
 2个存档槽不够用？没关系！现在你有6个了！
@@ -25,7 +25,7 @@ optional_dependencies = [ "mm_chinese_localization_text:1.0.0" ]
 native_libraries = []
 [inputs]
 elf_path = "build/mod.elf"
-mod_filename = "mm_multi_save"
+mod_filename = "mm_ultimate_6_save_slots_cn"
 func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
 data_reference_syms_files = [
     "Zelda64RecompSyms/mm.us.rev1.datasyms.toml",

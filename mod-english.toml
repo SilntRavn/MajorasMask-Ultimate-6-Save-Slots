@@ -22,14 +22,14 @@ native_libraries = []
 
 [inputs]
 elf_path = "build/mod.elf"
-mod_filename = "mm_multi_save_english"
+mod_filename = "mm_ultimate_6_save_slots"
 func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
 data_reference_syms_files = [
     "Zelda64RecompSyms/mm.us.rev1.datasyms.toml",
     "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml"
 ]
 additional_files = [
-    "thumb.png",
+    "thumb-english.png",
     "build/rt64/rt64.json",
     "build/rt64/sMsFile1ButtonTexture.dds",
     "build/rt64/sMsFile2ButtonTexture.dds",

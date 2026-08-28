@@ -37,7 +37,7 @@ if (-not (Test-Path (Join-Path $DecompRoot "include\global.h"))) {
 $BuildDir = Join-Path $ProjectRoot "build"
 $LanguageDefine = if ($English) { "-DMM_MULTI_SAVE_ENGLISH=1" } else { "-DMM_MULTI_SAVE_ENGLISH=0" }
 $Manifest = if ($English) { "mod-english.toml" } else { "mod.toml" }
-$NrmName = if ($English) { "mm_multi_save_english.nrm" } else { "mm_multi_save.nrm" }
+$NrmName = if ($English) { "mm_ultimate_6_save_slots.nrm" } else { "mm_ultimate_6_save_slots_cn.nrm" }
 New-Item -ItemType Directory -Force $BuildDir | Out-Null
 $Generator = Join-Path $ProjectRoot "tools\generate_ui_glyphs.py"
 & python $Generator
