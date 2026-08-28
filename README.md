@@ -18,5 +18,5 @@ saves/Ultimate 6 Save Slots/slot5&6.bin
 
 ## 发布包
 
-- `mm_multi_save.nrm`：中文存档标签，可配合中文文本 Mod。
-- `mm_multi_save_english.nrm`：英文存档标签。
+- `mm_ultimate_6_save_slots_cn.nrm`：中文存档标签，可配合中文文本 Mod。
+- `mm_ultimate_6_save_slots.nrm`：英文存档标签。
