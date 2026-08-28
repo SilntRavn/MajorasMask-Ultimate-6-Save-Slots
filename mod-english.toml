@@ -1,0 +1,40 @@
+[manifest]
+id = "mm_ultimate_6_save_slots"
+version = "1.0.0"
+display_name = "Ultimate 6 Save Slots"
+description = """
+Only 2 save slots and running out of space? No worries! Now you’ve got 6!
+
+The mod saves to slot1&2.bin, slot3&4.bin, and slot5&6.bin under
+`%localappdata%\\Zelda64Recompiled\\saves\\Ultimate 6 Save Slots`.
+
+github: https://github.com/SilntRavn/MajorasMask-Ultimate-6-Save-Slots
+
+bilibili: SilntRavn
+"""
+short_description = "Six independent save slots."
+authors = [ "SilntRavn" ]
+game_id = "mm"
+minimum_recomp_version = "1.2.2"
+dependencies = []
+optional_dependencies = []
+native_libraries = []
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "mm_multi_save_english"
+func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
+data_reference_syms_files = [
+    "Zelda64RecompSyms/mm.us.rev1.datasyms.toml",
+    "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml"
+]
+additional_files = [
+    "thumb.png",
+    "build/rt64/rt64.json",
+    "build/rt64/sMsFile1ButtonTexture.dds",
+    "build/rt64/sMsFile2ButtonTexture.dds",
+    "build/rt64/sMsCopyButtonTexture.dds",
+    "build/rt64/sMsEraseButtonTexture.dds",
+    "build/rt64/sMsQuitButtonTexture.dds",
+    "build/rt64/sMsYesButtonTexture.dds",
+]

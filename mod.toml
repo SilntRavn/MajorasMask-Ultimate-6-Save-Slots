@@ -1,0 +1,43 @@
+[manifest]
+id = "mm_ultimate_6_save_slots_cn"
+version = "1.0.2"
+display_name = "超绝六存档槽"
+description = """
+2个存档槽不够用？没关系！现在你有6个了！
+
+模组存档与原版存档完全独立
+
+模组存档命名格式: "slot1&2.bin, slot3&4.bin, slot5&6.bin"
+
+想载入自己已有的存档，将任意存档重命名为模组存档格式，并放置在
+"%localappdata%\\Zelda64Recompiled\\saves\\Ultimate 6 Save Slots"内
+
+github: https://github.com/SilntRavn/MajorasMask-Ultimate-6-Save-Slots
+
+bilibili: SilntRavn
+"""
+short_description = "2个存档槽不够用？没关系！现在你有6个了！"
+authors = [ "SilntRavn" ]
+game_id = "mm"
+minimum_recomp_version = "1.2.2"
+dependencies = []
+optional_dependencies = [ "mm_chinese_localization_text:1.0.0" ]
+native_libraries = []
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "mm_multi_save"
+func_reference_syms_file = "Zelda64RecompSyms/mm.us.rev1.syms.toml"
+data_reference_syms_files = [
+    "Zelda64RecompSyms/mm.us.rev1.datasyms.toml",
+    "Zelda64RecompSyms/mm.us.rev1.datasyms_static.toml"
+]
+additional_files = [
+    "thumb.png",
+    "build/rt64/rt64.json",
+    "build/rt64/sMsFile1ButtonTexture.dds",
+    "build/rt64/sMsFile2ButtonTexture.dds",
+    "build/rt64/sMsCopyButtonTexture.dds",
+    "build/rt64/sMsEraseButtonTexture.dds",
+    "build/rt64/sMsQuitButtonTexture.dds",
+    "build/rt64/sMsYesButtonTexture.dds",
+]

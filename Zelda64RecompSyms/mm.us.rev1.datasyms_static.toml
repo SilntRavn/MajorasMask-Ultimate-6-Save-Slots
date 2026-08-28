@@ -1,0 +1,10 @@
+# Manually curated static symbols that don't show up in the ELF.
+[[section]]
+name = "..code"
+rom = 0x00B3C000
+vram = 0x800A5AC0
+size = 0x13E4E0
+
+symbols = [
+    { name = "sGameOverTimer", vram = 0x801E1110 },
+]

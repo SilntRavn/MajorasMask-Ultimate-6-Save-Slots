@@ -1,0 +1,9 @@
+/release/
+build/
+*.o
+*.elf
+*.map
+__pycache__/
+*.pyc
+.vscode/
+.idea/
